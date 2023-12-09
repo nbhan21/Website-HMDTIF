@@ -238,6 +238,19 @@ article section p{
   margin: auto;
   /* background-color: azure; */
 }
+.g-sub-tk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.g-sub-tk img{
+  height: auto;
+  width: 60%;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 .g-tk{
   display: flex;
   flex-basis: 40%;
@@ -927,6 +940,10 @@ article section p{
   }
   .r-kotak-fkab h1{
     margin: auto;
+  }
+  .g-sub-tk{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   /* =========FOOTER======== */
