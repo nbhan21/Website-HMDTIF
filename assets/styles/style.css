@@ -202,6 +202,13 @@ article section p{
   padding-bottom: 40px;
   flex-wrap: wrap;
 }
+.sub-tk{
+  background-color: #e1ffff;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+}
 .j-tk h2{
   text-align: center;
   font-size: 2.5em;
@@ -219,6 +226,16 @@ article section p{
   max-width: 100%;
   box-sizing: border-box;
   margin-right: 5em;
+  /* background-color: azure; */
+}
+.sub-isi-tk{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  box-sizing: border-box;
+  margin: auto;
   /* background-color: azure; */
 }
 .g-tk{
@@ -242,6 +259,221 @@ article section p{
   flex-direction: column;
   text-align: justify;
 }
+.sub-t-tk{
+  box-sizing: border-box;
+  text-align: justify;
+  width: 60%;
+  margin: 3rem;
+}
+.sub-vm{
+  min-height: 0;
+  min-width: 0;
+  background-color: azure;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+}
+.j-vm h2{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 15px 0;
+  color: rgb(31, 115, 224);
+  text-shadow: 1px 2px 3px rgb(118, 164, 250);
+  margin-bottom: 3rem;  
+}
+.isi-v{
+  margin-left: 15%;
+}
+.j-v h1{
+  text-align: left;
+  font-size: 2.3rem;
+  margin-top: 1.5rem;
+  color: rgb(31, 115, 224);
+}
+.t-v{
+  text-align: justify;
+  width: 60%;
+  margin-bottom: 2rem;
+}
+.isi-m{
+  margin-right: 15%;
+}
+.j-m h1{
+  text-align: right;
+  font-size: 2.3rem;
+  margin-top: 1.5rem;
+  color: rgb(31, 115, 224);
+}
+.t-m{
+  text-align: justify;
+  padding-left: 35%;
+  margin-bottom: 2rem;
+}
+.sub-ak{
+  background-color: #e1ffff;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+}
+.j-ak h2{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 15px 0;
+  color: rgb(31, 115, 224);
+  text-shadow: 1px 2px 3px rgb(118, 164, 250);
+  margin-bottom: 3rem;
+}
+.isi-kotak-ak{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.kotak-ak{
+  display: block;
+  margin: 30px;
+}
+.kotak-ak img{
+  height: 300px;
+  width: 280px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.t-kotak-ak h2{
+  color: rgb(31, 115, 224);
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-flogo{
+  background-color: azure;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+}
+.j-flogo h2{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 15px 0;
+  color: rgb(31, 115, 224);
+  text-shadow: 1px 2px 3px rgb(118, 164, 250);
+}
+.isi-flogo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  padding: 30px;
+  margin-top: 3rem;
+  max-width: 100%;
+}
+.g-flogo img{
+  max-width: 330px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.isi-t-flogo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.l-t-flogo{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+}
+.r-t-flogo{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+}
+.t-flogo h1{
+  color: white;
+  margin-bottom: 0.7rem;
+  display:inline-block;
+  background-color: rgb(31, 115, 224);
+  border-radius: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.4rem;
+}
+.t-flogo p{
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.sub-fkab{
+  background-color: #e1ffff;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+}
+.j-fkab h2{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 15px 0;
+  color: rgb(31, 115, 224);
+  text-shadow: 1px 2px 3px rgb(118, 164, 250);
+}
+.isi-fkab{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+  margin-top: 3rem;
+}
+.kotak-fkab{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 15px;
+}
+.l-t-fkab{
+  display: flex;
+  flex-direction:column;
+  flex-basis: 40%;
+}
+.r-t-fkab{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;  
+}
+.r-kotak-fkab h1{
+  margin-bottom: 0.3rem;
+  text-align: left;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: black;
+}
+.kotak-fkab p{
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.g-kotak-fkab img{
+  margin: 20px;
+  height: 150px;
+  width: 150px;
+}
+.r-kotak-fkab{
+  flex: 60%;
+  display: flex;
+  flex-direction: column;
+}
 /* BAGIAN STRUKTUR ORGANISASI */
 .struktur-organisasi{
   background-color: azure;
@@ -255,25 +487,21 @@ article section p{
   text-align: center;
   font-size: 2.5em;
   padding: 15px 0;
+  margin-bottom: 3rem;
   color: rgb(31, 115, 224);
   text-shadow: 1px 2px 3px rgb(118, 164, 250);
-
 }
-/*.isi-sk h2{
-  background: #B7DEED;
-  background: linear-gradient(to bottom right, #B7DEED 0%, #71CEEF 25%, #21B4E2 75%, #B7DEED 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  padding: 250px 30px;
-  font-size: 4.5em;
-}*/
-.isi-sk h2{
-  color: #11e3eb;
-  text-align: center;
-  padding: 250px 30px;
-  font-size: 4.5em;
-  text-shadow: 1px 2px 3px rgb(118, 164, 250);
+.g-sk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.g-sk img{
+  margin-bottom: 3rem;
+  height: auto;
+  width: 80%;
+  max-width: 100%;
+  border-radius: 10px;
 }
 /* BAGAIN BERITA */
 .berita{
@@ -326,8 +554,8 @@ article section p{
   border-radius: 5px;
   object-fit: cover;
 }
-.kotak h2{
-  color: #2b093e; /*warna mengikuti template post*/
+.t-kotak h2{
+  color: black; /*warna mengikuti template post*/
   font-size: 1rem;
   text-align: center;
   margin-left: auto;
@@ -473,19 +701,19 @@ article section p{
 .f-top{
   padding: 10px 0;
   text-align: center;
-  background-color: rgb(31, 115, 224);
+  background-color: azure;
   display: block;
   flex-direction: column;
 }
 .f-top p{
-  color: azure;
+  color: rgb(31, 115, 224);
   font-weight: 500;
 }
 .f-bottom{
   text-align: center;
   display: block;
   flex-direction: column;
-  background-color: rgb(225, 255, 255);
+  background-color: azure;
   padding: 10px 0 10px 0;
   font-size: 0.8rem;
 }
@@ -533,9 +761,51 @@ article section p{
     font-size: 1rem;
     justify-content: center;
   }
+  /* =========SUB PAGE======== */
+  .sub-t-tk{
+    margin: 3rem 0 3rem 0;
+    width: 80%;
+  }
+  .isi-v{
+    margin-left: 8%;
+  }
+  .t-v{
+    width: 75%;
+  }
+  .isi-m{
+    margin-right: 8%;
+  }
+  .t-m{
+    padding-left: 25%;
+  }
+  .t-flogo h1{
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+  }
+  .j-v h1, .j-m h1{
+    font-size: 2.1rem;
+  }
+  .sub-t-tk p, .t-flogo p, .t-v p, .t-m li, .kotak-fkab p{
+    font-size: 1rem;
+  }
+  .g-flogo img{
+    max-width: 230px;
+  }
+  .kotak-fkab{
+    flex-direction: column;
+  }
+  .r-kotak-fkab h1{
+    font-size: 1.5rem;
+  }
+  .g-kotak-fkab{
+    margin: auto;
+  }
+
+  /*stxdcfvgbhnjmtdcfvgbhunjitfgy*/
   .g-tk{
   height: auto;
-  width: 100%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   }
@@ -548,6 +818,9 @@ article section p{
   .isi-tk{
     margin-right: 0;
     flex-direction: column;
+  }
+  .t-tk p{
+    font-size: 1.2rem;
   }
   .footer{
     flex-direction: column;
@@ -588,7 +861,7 @@ article section p{
 }
 
 /* responsive untuk mobile */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {  
 
 
   /* =========BAGIAN ISI========= */
@@ -614,9 +887,15 @@ article section p{
   .isi-tk{
     flex-direction: column;
   }
+  .t-tk p{
+    font-size: 1rem;
+  }
+  .j-sk h2{
+    margin-bottom: 0.5rem;
+  }
   .g-tk{
     height: auto;
-    width: 100%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -624,6 +903,32 @@ article section p{
     text-align: center;
     padding-right: 0px;
   }
+  /* =========SUB PAGE======== */
+  .sub-t-tk{
+    margin: 0.5rem 0 3rem 0;
+  }
+  .j-vm h2 {
+    margin-bottom: 0.5rem;
+  }
+  .j-ak h2 {
+    margin-bottom: 0.5rem;
+  }
+  .isi-flogo {
+    margin-top: 0.5rem;
+  }
+  .isi-fkab {
+    margin-top: 0.5rem;
+}
+  .isi-t-flogo{
+    flex-direction: column;
+  }
+  .isi-fkab{
+    flex-direction: column;
+  }
+  .r-kotak-fkab h1{
+    margin: auto;
+  }
+
   /* =========FOOTER======== */
   .footer{
     flex-direction: column;
