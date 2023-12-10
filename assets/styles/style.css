@@ -63,7 +63,7 @@ article section p{
 }
 
 .bg_beranda{
-  background-image: url(/assets/image/DSC_0048.JPG);
+  background-image: url(../image/DSC_0048.JPG);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -238,6 +238,13 @@ article section p{
   margin: auto;
   /* background-color: azure; */
 }
+.sub2-t-tk h3{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
 .g-sub-tk{
   display: flex;
   justify-content: center;
@@ -256,7 +263,7 @@ article section p{
   flex-basis: 40%;
   flex-direction: column;
   box-sizing: border-box;
-  background-image: url(/assets/image/logo_hmdtif.png);
+  background-image: url(../image/logo_hmdtif.png);
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 350px;
@@ -514,7 +521,8 @@ article section p{
   height: auto;
   width: 80%;
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.3);
 }
 /* BAGAIN BERITA */
 .berita{
@@ -897,6 +905,9 @@ article section p{
   .bg_beranda h3{
     font-size: 0.6em;
   }
+  .animasi{
+    line-height: 2.3em;
+  }
   .isi-tk{
     flex-direction: column;
   }
@@ -917,6 +928,13 @@ article section p{
     padding-right: 0px;
   }
   /* =========SUB PAGE======== */
+
+  .sub2-t-tk h3{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
   .sub-t-tk{
     margin: 0.5rem 0 3rem 0;
   }
@@ -942,7 +960,7 @@ article section p{
     margin: auto;
   }
   .g-sub-tk{
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
     margin-bottom: 1rem;
   }
 
